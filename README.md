@@ -1,8 +1,8 @@
 # Ege Ağırgöl
 
-Software engineer in Istanbul. Currently technical co-founder at Saspera, building an ESG
-reporting platform; before that, a thousand core banking APIs across five countries, and
-production systems for a defence engine manufacturer.
+Software developer in Istanbul. Currently technical co-founder at Saspera, building an ESG
+reporting platform; before that, core banking APIs across five countries and production
+systems for a defence engine manufacturer.
 
 Environmental engineering degree, which is why the first group below is what it is.
 
