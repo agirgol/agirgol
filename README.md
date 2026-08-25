@@ -55,12 +55,11 @@ The carbon repositories are one system. These three are not — separate problem
 because the work they correspond to sits behind a bank's firewall and cannot be shown.
 
 **[ledger-core](https://github.com/agirgol/ledger-core)** — a double-entry ledger for the
-JVM. Immutable, append-only, and unable to hold an unbalanced set of books. Five years of
-core banking work is a line on a CV; this is the invariant underneath it, held against a
-thousand generated histories per property per build rather than against the examples I
-would have chosen. Postgres enforces the append-only part with a trigger, because a
-guarantee the database does not hold is a convention, and an ArchUnit test fails the build
-if the domain ever acquires a dependency outside the JDK.
+JVM. Immutable, append-only, and unable to hold an unbalanced set of books. This is the 
+invariant underneath it, held against a thousand generated histories per property per build
+rather than against the examples I would have chosen. Postgres enforces the append-only part
+with a trigger, because a guarantee the database does not hold is a convention, and an ArchUnit test
+fails the build if the domain ever acquires a dependency outside the JDK.
 
 **[polyglot-microservices-reference](https://github.com/agirgol/polyglot-microservices-reference)**
 — three services, two runtimes, one trace. .NET 10 for the domain service, Spring Boot 4.1
